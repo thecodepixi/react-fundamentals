@@ -22,13 +22,12 @@
     <!-- <div id="root"> -->
         <script type="module">
             let root = document.createElement('div')
-            root.id = 'root'
             document.body.append(root)
 
             let div = document.createElement('div')
             div.textContent = 'Hello World'
             div.className = 'container'
-            document.getElementById('root').append(div)
+            root.append(div)
         </script>
     <!-- </div> -->
 </body>
